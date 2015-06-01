@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html ng-app="webApp" ng-class="{'show': loaded}" ng-init="loaded=true">
+<head>
+    <meta charset="utf-8" />
+    <title>AngularJS Authentication</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/angular-loading-bar/0.7.1/loading-bar.css" rel="stylesheet" />
+    <link href="Content/sistema.css" rel="stylesheet" />
+        
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <base href="/">
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-static-top" role="navigation" ng-controller="indexController">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="btn btn-success navbar-toggle" data-ng-click="navbarExpanded = !navbarExpanded">
+                    <span class="glyphicon glyphicon-chevron-down"></span>
+                </button>
+                <a class="navbar-brand" href="#">Ordenes</a>
+            </div>
+            <div class="navbar-collapse collapse" data-collapse="!navbarExpanded">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/">Inicio</a></li>
+                    <li data-ng-hide="!authentication.isAuth"><a href="/unidades">Unidades</a></li>
+                    <li data-ng-hide="!authentication.isAuth"><a href="/about">Acerca</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li data-ng-hide="authentication.isAuth"><a href="/signup"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li data-ng-hide="authentication.isAuth"><a href="#" ng-click="login()"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    <li data-ng-hide="!authentication.isAuth"><a href="#">Bienvenido {{authentication.userName}}</a></li>
+                    <li data-ng-hide="!authentication.isAuth"><a href="#" ng-click="logOut()"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+        
+     <div class="container">
+        <div class="ng-view">
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.13.1/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-route.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.0/ui-bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.0/ui-bootstrap-tpls.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-loading-bar/0.7.1/loading-bar.min.js"></script>
+    <script src="/Scripts/oidc/oidc.js"></script>
+    <script src="app/webApp.js"></script>
+    <script src="app/clientroute.js"></script>
+    <script src="App/security/service/authInterceptorService.js"></script>
+    <script src="App/security/service/authService.js"></script>
+    <script src="app/unidad/controllers/crudUnidadController.js"></script>
+    <script src="app/unidad/controllers/unidadController.js"></script>
+    <script src="app/unidad/service/unidadService.js"></script>
+    <script src="App/security/controllers/indexController.js"></script>
+    <script src="App/security/controllers/signupController.js"></script>
+    <script src="App/home/controllers/homeController.js"></script>
+</body>
+</html>

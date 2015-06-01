@@ -1,0 +1,49 @@
+﻿
+<div class="panel panel-primary">
+
+    <div class="panel-heading">Eliminar Unidad</div>
+    <div class="panel-body">
+        <form class="form-horizontal" role="form" id="deleteUnidadForm" name="deleteUnidadForm">
+
+            <div class="form-group">
+                <label for="id" class="col-sm-3 control-label">ID</label>
+                <div class="col-sm-6">
+                    <input type="text" id="name" name="name" class="form-control" readonly="readonly"
+                           ng-model="vm.unidad.id" placeholder="id" />
+
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="descripcion" class="col-sm-3 control-label">Descripción</label>
+                <div class="col-sm-6">
+                    <input type="text" id="descripcion" name="descripcion" class="form-control" readonly="readonly"
+                           ng-model="vm.unidad.descripcion" placeholder="descripcion" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="nemonico" class="col-sm-3 control-label">Némonico</label>
+                <div class="col-sm-6">
+                    <input type="text" id="nemonico" name="nemonico" class="form-control" readonly="readonly"
+                           ng-model="vm.unidad.nemonico" placeholder="nemonico" />
+                </div>
+            </div>            
+
+            <div class="form-group">
+                <div class="col-md-3 col-sm-3 col-sm-offset-3 col-md-offset-3">
+                    <button id="cancelButton" name="cancelButton" class="btn btn-danger"
+                            ng-click="vm.cancel()">
+                        <i class="glyphicon glyphicon-thumbs-down"></i> Cancelar
+                    </button>
+                    <button id="submitButton" name="submitButton" class="btn btn-danger"
+                            ng-click="vm.destroy()">
+                        <i class="glyphicon glyphicon-trash"></i> Eliminar
+                    </button>
+
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
