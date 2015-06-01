@@ -1,0 +1,32 @@
+C:\VS2015\Web\SelfHost (Minimal)\SelfHost\bin\Debug\SelfHost.exe.config
+C:\VS2015\Web\SelfHost (Minimal)\SelfHost\bin\Debug\SelfHost.exe
+C:\VS2015\Web\SelfHost (Minimal)\SelfHost\bin\Debug\SelfHost.pdb
+C:\VS2015\Web\SelfHost (Minimal)\SelfHost\bin\Debug\Microsoft.Owin.dll
+C:\VS2015\Web\SelfHost (Minimal)\SelfHost\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\VS2015\Web\SelfHost (Minimal)\SelfHost\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\VS2015\Web\SelfHost (Minimal)\SelfHost\bin\Debug\Owin.dll
+C:\VS2015\Web\SelfHost (Minimal)\SelfHost\bin\Debug\Thinktecture.IdentityServer3.dll
+C:\VS2015\Web\SelfHost (Minimal)\SelfHost\bin\Debug\Microsoft.Owin.xml
+C:\VS2015\Web\SelfHost (Minimal)\SelfHost\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\VS2015\Web\SelfHost (Minimal)\SelfHost\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\VS2015\Web\SelfHost (Minimal)\SelfHost\bin\Debug\Thinktecture.IdentityServer3.pdb
+C:\VS2015\Web\SelfHost (Minimal)\SelfHost\bin\Debug\Thinktecture.IdentityServer3.xml
+C:\VS2015\Web\SelfHost (Minimal)\SelfHost\obj\Debug\SelfHost (Minimal).csprojResolveAssemblyReference.cache
+C:\VS2015\Web\SelfHost (Minimal)\SelfHost\obj\Debug\SelfHost.exe
+C:\VS2015\Web\SelfHost (Minimal)\SelfHost\obj\Debug\SelfHost.pdb
+C:\VS2015\Blog\SelfHost (Minimal)\SelfHost\bin\Debug\SelfHost.exe.config
+C:\VS2015\Blog\SelfHost (Minimal)\SelfHost\bin\Debug\SelfHost.exe
+C:\VS2015\Blog\SelfHost (Minimal)\SelfHost\bin\Debug\SelfHost.pdb
+C:\VS2015\Blog\SelfHost (Minimal)\SelfHost\bin\Debug\Microsoft.Owin.dll
+C:\VS2015\Blog\SelfHost (Minimal)\SelfHost\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\VS2015\Blog\SelfHost (Minimal)\SelfHost\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\VS2015\Blog\SelfHost (Minimal)\SelfHost\bin\Debug\Owin.dll
+C:\VS2015\Blog\SelfHost (Minimal)\SelfHost\bin\Debug\Thinktecture.IdentityServer3.dll
+C:\VS2015\Blog\SelfHost (Minimal)\SelfHost\bin\Debug\Microsoft.Owin.xml
+C:\VS2015\Blog\SelfHost (Minimal)\SelfHost\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\VS2015\Blog\SelfHost (Minimal)\SelfHost\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\VS2015\Blog\SelfHost (Minimal)\SelfHost\bin\Debug\Thinktecture.IdentityServer3.pdb
+C:\VS2015\Blog\SelfHost (Minimal)\SelfHost\bin\Debug\Thinktecture.IdentityServer3.xml
+C:\VS2015\Blog\SelfHost (Minimal)\SelfHost\obj\Debug\SelfHost.exe
+C:\VS2015\Blog\SelfHost (Minimal)\SelfHost\obj\Debug\SelfHost.pdb
+C:\VS2015\Blog\SelfHost (Minimal)\SelfHost\obj\Debug\SelfHost (Minimal).csprojResolveAssemblyReference.cache
